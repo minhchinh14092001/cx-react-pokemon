@@ -1,0 +1,52 @@
+.pokedex-logo {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.pokedex-container {
+  background-image: url(../images/pikachuyellow.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  background-color: #F7DE83;
+  position: absolute;
+    height: 100%;
+    width: 100%;
+  .pokemon-card-image {
+    height: 80px;
+    width: 80px;
+    margin-right: 15px;
+  }
+}
+
+.pokemon-card-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.pokemon-card {
+  display: flex;
+  border-radius: 10px;
+  background: rgba(255,255,255, 0.6);
+  width: 200px;
+  margin: 10px;
+  align-items: center;
+  padding: 5px;
+  .pokecard-paragraphs {
+    line-height: 4px;
+    .pokemon-index {
+      font-size: 13px;
+      font-family: 'Raleway'
+    }
+    .pokemon-name {
+      font-weight: bold;
+      font-family: 'VT323';
+      font-size: 20px;
+    }
+  }
+}

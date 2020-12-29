@@ -1,0 +1,153 @@
+.pokedex-index {
+  background-image: url(../images/pikachuyellow.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  background-color: #F7DE83;
+  position: absolute;
+  height: -webkit-fill-available;
+  width: 100%;
+}
+
+.link-retour  {
+  p {
+    margin-left: 15px;
+    font-family: "VT323";
+    font-size: 20px;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blue;
+  }
+}
+
+.pokemon-index-first-container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    margin: 0 auto;
+    min-height: 85%;
+  img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.pokemon-info {
+  margin-top: 35px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  img {
+    position: relative;
+    top: 50px;
+  }
+}
+
+.pokemon-info-content {
+  width: 50%;
+  margin: auto;
+  background: rgba(229, 197, 103, 0.8);
+  border-radius: 10px;
+  margin-bottom: 50px
+}
+
+.pokemon-info-first-paragraph {
+  justify-content: center;
+  padding-top: 35px;
+  p {
+    margin: 5px;
+  }
+  p:last-child {
+    margin-bottom: 20px;
+  }
+  .pokemon-info-index {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .pokemon-info-name {
+    font-family: 'VT323';
+    font-size: 25px;
+  }
+  .pokemon-info-fr {
+    font-weight: bold;
+  }
+  .pokemon-info-nomja {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .trait {
+    color: rgb(140, 109, 16);
+  }
+}
+
+.pokemon-info-second-paragraph {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  .pokemon-info-type {
+    width: 33%;
+    margin-bottom: 10px;
+    border-right: 1px solid rgb(140, 109, 16)
+  }
+  .pokemon-info-taille {
+    width: 33%;
+    margin-bottom: 10px;
+  }
+  .pokemon-info-poids {
+    width: 33%;
+    margin-bottom: 10px;
+    border-right: 1px solid rgb(140, 109, 16)
+  }
+  p, span {
+    font-family: 'Raleway'
+  }
+  p {
+    margin: 7px;
+    font-weight: bold;
+  }
+  span {
+    font-size: 14px;
+  }
+}
+
+.pokemon-attaques-container {
+  width: fit-content;
+  margin: 0 auto;
+  background: rgba(229, 197, 103, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+  h3 {
+    font-family: 'Raleway';
+    border-bottom: 1px solid rgb(140, 109, 16);
+    width: 55%;
+    padding: 15px;
+    margin: 0 auto;
+  }
+}
+
+.pokemon-attaques {
+  display: flex;
+  justify-content: center;
+  width: fit-content;;
+  margin: 0 auto;
+  align-items: flex-end;
+}
+
+.pokemon-attaques-content {
+  margin: 0 10px;
+  p:first-child {
+    font-family: "VT323";
+    font-size: 20px;
+    font-weight: bold;
+  }
+  p:last-child {
+    font-family: 'Raleway';
+  }
+}

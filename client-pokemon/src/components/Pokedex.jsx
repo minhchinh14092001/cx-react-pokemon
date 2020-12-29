@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 import PokemonCard from "./PokemonCard";
 
@@ -26,10 +27,12 @@ export default class Pokedex extends Component {
             <div className='pokedex'>
               <div className='pokemon-card-container'>
                 {this.state.pokemons.map((pokemon) => (
+                  <Link to={`/pokemons/${pokemon.id}`}>
                     <PokemonCard nom={pokemon.nom}
                     ndex={pokemon.ndex} image={pokemon.image} />
+                  </Link>
                 ))}
-                </div>
+              </div>
             </div>
           </div>
         )

@@ -1,5 +1,6 @@
 [
     {
+      "id": "1",
       "numéro": "001",
       "nom": "Bulbizarre",
       "nomen": "Bulbasaur",
@@ -102,6 +103,7 @@
       ]
     },
     {
+      "id": "2",
       "numéro": "010",
       "nom": "Chenipan",
       "nomen": "Caterpie",
@@ -157,6 +159,7 @@
       ]
     },
     {
+      "id": "3",
       "numéro": "100",
       "nom": "Voltorbe",
       "nomen": "Voltorb",
@@ -254,6 +257,7 @@
       ]
     },
     {
+      "id": "4",
       "numéro": "101",
       "nom": "Électrode",
       "nomen": "Electrode",
@@ -349,6 +353,7 @@
       ]
     },
     {
+      "id": "5",
       "numéro": "102",
       "nom": "Nœunœuf",
       "nomen": "Exeggcute",
@@ -462,6 +467,7 @@
       ]
     },
     {
+      "id": "6",
       "numéro": "103",
       "nom": "Noadkoko",
       "nomen": "Exeggutor",
@@ -542,6 +548,7 @@
       ]
     },
     {
+      "id": "7",
       "numéro": "104",
       "nom": "Osselait",
       "nomen": "Cubone",
@@ -649,6 +656,7 @@
       ]
     },
     {
+      "id": "8",
       "numéro": "105",
       "nom": "Ossatueur",
       "nomen": "Marowak",
@@ -748,6 +756,7 @@
       ]
     },
     {
+      "id": "9",
       "numéro": "106",
       "nom": "Kicklee",
       "nomen": "Hitmonlee",

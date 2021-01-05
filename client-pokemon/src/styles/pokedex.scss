@@ -83,12 +83,11 @@ and (max-device-width : 1024px) {
 // Smartphone
 
 @media (min-width: 320px)
-and (max-width: 480px) {
+and (max-width: 768px) {
   .pokedex-logo {
     width: 300px;
   }
   .pokedex-container {
-  background-repeat: repeat;
     .pokemon-card-image {
       height: 75px;
       width: 75px;

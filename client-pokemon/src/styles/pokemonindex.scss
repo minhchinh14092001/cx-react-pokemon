@@ -155,3 +155,78 @@
     font-size: 14px;
   }
 }
+
+// Media Queries
+
+// iPad and Laptop
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1216px) {
+  .pokemon-attaques-container {
+    width: 400px;
+  }
+  .pokemon-attaques {
+    flex-wrap: wrap;
+  }
+}
+
+// Smartphone
+
+@media (min-width: 320px)
+and (max-width: 768px) {
+  .pokemon-index-first-container {
+    min-height: 90%;
+  }
+  .pokemon-info {
+    width: 100%;
+    margin-top: 0;
+  }
+  .pokemon-info-first-paragraph {
+    .pokemon-info-index {
+      font-size: 14px;
+    }
+    .pokemon-info-fr {
+      font-size: 16px;
+    }
+    .trait {
+      display: none;
+    }
+    .pokemon-info-nomja {
+      font-size: 11px;
+    }
+  }
+  .pokemon-info-second-paragraph {
+    .pokemon-info-type {
+      border: none;
+    }
+    .pokemon-info-poids {
+      border: none;
+    }
+    p {
+      font-size: 16px;
+    }
+    span {
+      font-size: 12px;
+    }
+  }
+  .pokemon-attaques-container {
+    width: 235px;
+    padding: 5px;
+    h3 {
+      font-size: 20px;
+    }
+  }
+  .pokemon-attaques {
+    flex-wrap: wrap;
+  }
+  .pokemon-attaques-content {
+    p:first-child {
+      font-size: 15px;
+    }
+    p:last-child {
+      font-size: 10px;
+    }
+  }
+
+}
